@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Buildit Hardware | Login</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <img src="images/logo.png" alt="Buildit Logo" style="height:50px; margin-right:10px;">
+    <h1>Buildit Hardware</h1>
+   
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="register.html">Register</a>
+    
+    <a href="about.html">About Us</a>
+   
+    <a href="login.html">Login</a>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="content">
+    <h2>Login</h2>
+    <p>Please enter your username and password to continue.</p>
+
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required>
+
+      <br><br>
+      <input type="submit" value="Login">
+    </form>
+
+    <div id="loginMessage" style="margin-top:15px; font-weight:bold;"></div>
+  </div>
+
+  <!-- SIDEBAR -->
+  <aside id="sidebar">
+    <h3>Security Tips</h3>
+    <ul>
+      <li>Use at least 8 characters</li>
+      <li>Include letters and numbers</li>
+      <li>Avoid common passwords</li>
+    </ul>
+  </aside>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Buildit Hardware. All rights reserved.</p>
+  </footer>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
+
+
